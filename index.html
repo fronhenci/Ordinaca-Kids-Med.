@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KIDS MED Ordinanca Pediatrike</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f9ff;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00b4d8, #0096c7);
+      color: white;
+      padding: 2em 1em;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      margin-top: 0.5em;
+      font-size: 1.1em;
+    }
+
+    .description {
+      padding: 1em;
+      font-size: 1.1em;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6em;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1em;
+      padding: 1em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .images img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Price list section */
+    .price-list {
+      background-color: #caf0f8;
+      padding: 2em 1em;
+      margin-top: 2em;
+      border-radius: 12px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .price-list h2 {
+      color: #0077b6;
+      margin-bottom: 0.5em;
+    }
+
+    .price-list p {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    /* Buttons */
+    .social-btn, .call-btn {
+      display: inline-block;
+      margin: 1em;
+      background-color: #0077b6;
+      color: white;
+      padding: 0.8em 1.6em;
+      border-radius: 10px;
+      font-size: 1.1em;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .social-btn:hover, .call-btn:hover {
+      background-color: #023e8a;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #00b4d8;
+      color: white;
+      padding: 1em;
+      font-size: 0.9em;
+      margin-top: 2em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+
+      .description {
+        font-size: 1em;
+        padding: 0.8em;
+      }
+
+      .social-btn, .call-btn {
+        font-size: 1em;
+        padding: 0.7em 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KIDS MED Ordinanca Pediatrike</h1>
+    <p>Shëndeti i fëmijës suaj është prioriteti ynë!</p>
+  </header>
+
+  <section class="description">
+    <p>
+      KIDS MED is a friendly pediatric clinic dedicated to providing compassionate and professional care for 
+      children’s health and wellness. Our mission is to ensure every child grows healthy and happy through 
+      expert pediatric services.
+    </p>
+  </section>
+
+  <section class="images">
+    <img src="images (1).jpg" alt="Dr. Fatlind Henci pediatric clinic">
+    <img src="images.jpg" alt="KIDS MED pediatric clinic">
+    <img src="images.png" alt="KIDS MED logo">
+  </section>
+
+  <!-- Price List Section -->
+  <section class="price-list">
+    <h2>Price List</h2>
+    <p>💰 Pediatric Visit – 20 € per visit</p>
+  </section>
+
+  <!-- Buttons -->
+  <a href="https://www.facebook.com/p/Ordinanca-Pediatrike-KIDS-MED-100083280853753/" 
+     target="_blank" class="social-btn">Visit us on Facebook</a>
+
+  <a href="tel:+38346707505" class="call-btn">📞 Call Us: +383 46 707 505</a>
+
+  <footer>
+    <p>&copy; 2026 KIDS MED Ordinanca Pediatrike · All rights reserved.</p>
+  </footer>
+</body>
+</html>
